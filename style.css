@@ -1,0 +1,297 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.navbar{
+  height: 80px;
+  width:100%;
+   background-color: #0077b5;
+  	color:#fff;
+  }
+
+.logo{
+  position: absolute;
+
+
+  left:5%;
+
+}
+.login_form{
+  display: flex;
+  position: absolute;
+  font-family: sans-serif;
+  left:65%;
+  top:15px;
+}
+.login_form .email ,.login_form .password {
+padding-left: 10px;
+}
+.login_form .email .font,.login_form .password .font {
+  font-size: 13px;
+  padding-bottom: 4px;
+  color:white;
+}
+
+
+.login_form .email input, .login_form .password input{
+
+height: 23px;
+
+width: 150px;
+
+padding-left: 5px;
+border: 1px solid white;
+
+outline: none;
+}
+
+.login_btn{
+
+height: 24px; width: 50px;
+
+font-weight: 600;
+
+margin-left: 15px; margin-top: 20px;
+
+
+border: 1px solid #3DCAB5;
+
+outline: none;
+cursor: pointer;
+
+color: #3DCAB5;
+background: white;
+}
+.login_btn:hover{
+
+  border: 1px solid #3DCAB5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: #3DCAB5;
+
+}
+.password a{
+  text-decoration: none;
+  color: white;
+  font-size:  12px;
+  font-family: sans-serif;
+}
+.picbody{
+  position:absolute;
+  left:25px;
+  top:30%;
+}
+.main{
+  height:550px;
+  width:100%;
+  top:700px;
+  background-color: #ffffff;
+}
+.left{
+
+    width:35%;
+    float: left;
+}
+.slider{
+  margin-left: 45%;
+  margin-top: 13%;
+width: 400px;
+height: 450px;
+background: url(image1.jpg);
+animation: slide 25s infinite;
+}
+@keyframes slide {
+  25%{
+    background: url(image2.png);
+  }
+  50%{
+    background: url(image3.png);
+  }
+  75%{
+    background: url(image4.jpg);
+  }
+  100%{
+    background: url(image5.jpg);
+  }
+}
+.signup_body{
+  font-family:arial;
+  position: absolute;
+  left:55%;
+}
+.signup_body .account_create{
+  font-size: 40px;
+  margin:25px 0;
+  font-family: sans-serif;
+  color: #000000;
+}
+.signup_body .about{
+  font-size: 20px;
+  margin:15px ;
+  font-family: sans-serif;
+  color: #0077b5;
+}
+.signup_body .signup_form{
+  margin-top: 10+++++++++++++++++++++++++++++++++++++++ +px;
+  height: 38px;
+  width:150px;
+  font-size: 18px;
+
+  border-radius: 4px;
+}
+
+.signup_body .signup_form .email,
+.signup_body .signup_form .secondname,
+.signup_body .signup_form .firstname,
+.signup_body .signup_form .password,
+.signup_body .signup_form .password2{
+
+
+  font-weight: 600;
+
+
+margin-top: 10px;
+  border: 1px solid #3DCAB5;
+  height: 26px;
+
+  outline: none;
+  cursor: pointer;
+
+  color: #86888a;
+  background: white;
+
+
+  width: 300px;
+}
+.date p{
+  margin-top: 8px;
+  color: #000000;
+  font-size: 18px;
+  font-family:sans-serif;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+
+
+}
+.signup_body .signup_form .birthday{
+
+    border: 1px solid #3DCAB5;
+
+    outline: none;
+    cursor: pointer;
+
+    color: #86888a;
+    background: white;
+    font-family: sans-serif;
+
+height: 20px;
+    width: 300px;
+
+}
+.gender p{
+  margin-top: 8px;
+  color: #000000;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+
+  font-family:sans-serif;
+  font-weight: 500;
+}
+.radio{
+       font-size: 15px;
+    font-weight: 500;
+    color: #86888a;
+          font-weight: 600;
+          outline: none;
+          cursor: pointer;
+
+
+}
+#birthday{
+  height: 23px;
+  border: 1px solid #3DCAB5;
+  color: #86888a;
+  background: white;
+      font-weight: 600;
+      outline: none;
+      cursor: pointer;
+
+
+}
+.Profession p{
+  margin-top: 9px;
+  color: #000000;
+  font-size: 18px;
+  font-family:sans-serif;
+  outline: none;
+  cursor: pointer;
+
+  font-weight: 500;
+}
+.bar{
+  width: 150px;
+    font-weight: 600;
+  border: 1px solid #3DCAB5;
+
+    height: 26px;
+    color: #86888a;
+    background: white;
+
+}
+.bar:hover{
+  font-weight: 600;
+  border: 1px solid #3DCAB5;
+  color: #86888a;
+  background: white;
+
+}
+.sub_btn{
+margin-top: 15px;
+height: 40px; width: 100px;
+
+font-weight: 600;
+
+
+border: 1px solid #000000;
+
+outline: none;
+cursor: pointer;
+
+color: #000000;
+background: white;
+}
+.sub_btn:hover{
+
+  border: 1px solid #3DCAB5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: #3DCAB5;
+
+}
+.fotter{
+  width: 100%;
+  height: 20px;
+   background-color: #0077b5;
+
+}
+.fotter p{
+  align-items: center;
+  color: #fff;
+}
+@media  {
+  .login_form {
+    display: flex;
+    position: absolute;
+    font-family: sans-serif;
+    left: 54%;
+    top: 15px;
+}
+.left {
+    width: 22%;
+    float: left;
+}
+}
